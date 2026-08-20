@@ -1,6 +1,6 @@
 from langgraph.graph import StateGraph, START, END
 from typing import TypedDict, Optional
-
+# Define the state schema for the appointment validation subgraph
 # Define the state schema for the appointment validation subgraph
 class AppointmentState(TypedDict):
     patient_name: str
